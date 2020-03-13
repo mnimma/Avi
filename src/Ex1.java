@@ -37,6 +37,7 @@ public class Ex1 {
 			d1.findElement(By.linkText("SIGN-OFF")).click();
 
 			System.out.println("Logout Clicked");
+			System.out.println("Login Clicked");
 
 			d1.close();
 
