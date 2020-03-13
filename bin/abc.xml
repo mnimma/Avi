@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="parallel Classes" parallel="tests">
+
+	<test name="Test in GC">
+	<parameter name="browser" value="GC"/> 
+		<classes>
+			<class name="CrossBrowser2"/>
+			<class name="CrossBrowser3"/>
+			<class name="CrossBrowser4"/>
+
+		</classes>
+	</test>
+	<test name="Test in FF">
+	<parameter name="browser" value="FF"/> 
+		<classes>
+			<class name="CrossBrowser2"/>
+			<class name="CrossBrowser3"/>
+			<class name="CrossBrowser4"/>
+
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [parallel Classes]" parallel="tests">
+  <parameter name="browser" value="FF"/>
+  <test name="Test in FF(failed)" parallel="tests">
+    <parameter name="browser" value="FF"/>
+    <classes>
+      <class name="CrossBrowser3">
+        <methods>
+          <include name="startup"/>
+          <include name="startup"/>
+          <include name="login"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- CrossBrowser3 -->
+      <class name="CrossBrowser2">
+        <methods>
+          <include name="login"/>
+          <include name="startup"/>
+          <include name="startup"/>
+        </methods>
+      </class> <!-- CrossBrowser2 -->
+      <class name="CrossBrowser4">
+        <methods>
+          <include name="startup"/>
+          <include name="end"/>
+          <include name="startup"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- CrossBrowser4 -->
+    </classes>
+  </test> <!-- Test in FF(failed) -->
+  <test name="Test in GC(failed)" parallel="tests">
+    <parameter name="browser" value="GC"/>
+    <classes>
+      <class name="CrossBrowser3">
+        <methods>
+          <include name="startup"/>
+          <include name="startup"/>
+          <include name="login"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- CrossBrowser3 -->
+      <class name="CrossBrowser2">
+        <methods>
+          <include name="login"/>
+          <include name="startup"/>
+          <include name="startup"/>
+        </methods>
+      </class> <!-- CrossBrowser2 -->
+      <class name="CrossBrowser4">
+        <methods>
+          <include name="startup"/>
+          <include name="end"/>
+          <include name="startup"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- CrossBrowser4 -->
+    </classes>
+  </test> <!-- Test in GC(failed) -->
+</suite> <!-- Failed suite [parallel Classes] -->

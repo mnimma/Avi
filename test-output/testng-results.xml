@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42928" started-at="2018-10-16T11:30:04Z" finished-at="2018-10-16T11:30:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42928" started-at="2018-10-16T11:30:04Z" finished-at="2018-10-16T11:30:47Z">
+      <class name="Robot_Ex2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Robot_Ex2@4f933fd1]" name="setUp" is-config="true" duration-ms="18171" started-at="2018-10-16T17:00:04Z" finished-at="2018-10-16T17:00:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testTestScenario1()[pri:0, instance:Robot_Ex2@4f933fd1]" name="testTestScenario1" duration-ms="23922" started-at="2018-10-16T17:00:22Z" finished-at="2018-10-16T17:00:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestScenario1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Robot_Ex2@4f933fd1]" name="tearDown" is-config="true" duration-ms="822" started-at="2018-10-16T17:00:46Z" finished-at="2018-10-16T17:00:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Robot_Ex2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
