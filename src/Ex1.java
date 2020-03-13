@@ -21,6 +21,7 @@ public class Ex1 {
 		d1.findElement(By.linkText("SIGN-ON")).click();
 		d1.findElement(By.name("userName")).sendKeys("mercury");
 		d1.findElement(By.name("password")).sendKeys("mercury");
+		d1.findElement(By.name("password")).sendKeys("me");
 
 		Thread.sleep(5000);
 
